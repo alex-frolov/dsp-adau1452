@@ -45,18 +45,34 @@ USBi так же убрал +3.3в подключение к adau.
 
 *На слух какая-то особенность с регулировкой баланса, не совсем разобрался.*
 
+
+**Макетная плата**
 ![Макетная плата](/first/maket.jpg)
 
+
+**Основная схема**
 ![Основная схема](/first/main_scheme.png)
 
-![Табица сравнения селектора выходов](/first/channel_select_table.png)
 
+**Табица сравнения селектора входов**
+![Табица сравнения селектора входов](/first/channel_select_table.png)
+
+
+**Настройка ФНЧ**
 ![Настройка ФНЧ](/first/bass_settings.png)
 
+
+**Настройка ФВЧ**
 ![Настройка ФВЧ](/first/treble_settings.png)
 
+
+**Вкладка настройки CLOCK CONTROL**
 ![Вкладка настройки CLOCK CONTROL](/first/clock_control_settings.png)
 
+
+**Вкладка настройки CORE CONTROL**
 ![Вкладка настройки CORE CONTROL](/first/core_control_settings.png)
 
+
+**Вкладка настройки SERIAL PORT**
 ![Вкладка настройки SERIAL PORT](/first/serial_port_settings.png)
