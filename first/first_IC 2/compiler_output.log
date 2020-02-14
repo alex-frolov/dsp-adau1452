@@ -1,0 +1,69 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.5.0,1779  (built 10/28/2019)
+
+##### Compile Started: Friday, February 14, 2020 9:55:15 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.5.0,1779  (built 10/28/2019)
+
+##### Compile Started: Friday, February 14, 2020 9:55:15 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       00417    (of 20480)
+DM1 RAM used:       00110    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 00466    (of 8192) 394 instructions (32bit: 322  64bit: 72)
+Total PM used:      00466    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+2nd Order Filter1_2           53        79        168     22      0
+2nd Order Filter1             53        79        168     20      0
+FRAMEWORK                     52        33        4       7       0
+Balance                       18        22        0       6       0
+Tone1                         18        18        10      1       0
+MX1                           11        14        10      0       0
+Volume                        11        13        0       4       0
+Lookup Table1                 11        12        6       1       0
+1 X RTA1                      10        10        2       1       0
+1 X RTA1_2                    10        10        2       1       0
+DCB1                          8         8         3       2       0
+DCB1_2                        8         8         3       2       0
+Gen 1st Order1                7         7         3       5       0
+Gen 1st Order1_3              7         7         3       5       0
+Balance compencation          7         7         1       2       0
+X1                            5         5         0       1       0
+Mute1_2                       4         4         1       1       0
+Mute1                         4         4         1       1       0
+Shift1_4                      4         4         1       1       0
+Shift1_5                      4         4         1       1       0
+Shift1_2                      4         4         1       1       0
+Shift1                        4         4         1       1       0
+W Noise1                      4         4         1       1       0
+Shift1_3                      4         4         1       1       0
+Input2                        4         4         0       2       0
+Input3                        4         4         0       2       0
+Input4                        4         4         0       2       0
+ADC In1                       4         4         0       1       0
+Treble                        4         4         0       1       0
+Selector                      4         4         0       1       0
+Sub2                          4         4         0       1       0
+Bass                          4         4         0       1       0
+ADC In1_3                     4         4         0       1       0
+Input1                        4         4         0       0       0
+ReadBack2_3                   3         3         1       1       0
+ReadBack2_2                   3         3         1       1       0
+ReadBack2_4                   3         3         1       1       0
+ReadBack2                     3         3         1       1       0
+DC2_2                         2         2         1       1       0
+DC2_3                         2         2         1       1       0
+Output2                       2         2         0       0       0
+Output1                       2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         381       424       413     106     0
+--------------------------------------------------------------------------------------
+(% Fs=96.0kHz)                13%       6%        3%      1%      0%
+
