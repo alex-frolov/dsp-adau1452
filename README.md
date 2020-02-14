@@ -6,9 +6,10 @@ It uses adau1452 as DSP. Examples of working projects.
 1. Make
 
 
-#Russian
+# Russian
 
 *Примеры проектов на adau1452.*
+
 **Использовались:**
 * [RDC3-0027v1, SigmaDSP ADAU1452. Модуль цифровой обработки звука. V1](https://www.chipdip.ru/product/rdc3-0027v1)
 * [USB I2S преобразователь 32bit/96kHz, SUPER PRIME chipdip, USB Hi-Res Audio, квадро, STM32F446RC](https://www.chipdip.ru/product0/9000569733)
@@ -19,9 +20,9 @@ It uses adau1452 as DSP. Examples of working projects.
 
 Всё по цене дешевле чем у китайцев брать что-то похожее и без гаранции, что заработает.
 
-##0. В начале проверяем работоспособность платы.
+## 0. В начале проверяем работоспособность платы.
 
-##1. Версия без микроконтроллера с переменными резисторами. Лежит в папке first.
+## 1. Версия без микроконтроллера с переменными резисторами. Лежит в папке first.
 Входы: USB через SUPER PRIME, китайский bluetooth 5.0 модуль подключенный через PCM1808 к ADAU1452, возможно использовать оставшиеся два входа и SPDIF. Селектор на пять каналов это подразумевает.
 Выходы: один PCM5102A серео.
 Задействовано 5 переменных резисторов подключенных на AUXDAC0-4:
@@ -44,18 +45,18 @@ USBi так же убрал +3.3в подключение к adau.
 
 *На слух какая-то особенность с регулировкой баланса, не совсем разобрался.*
 
-![Макетная плата] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/maket.jpg)
+![Макетная плата](/first/maket.jpg)
 
-![Основная схема] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/main_scheme.png)
+![Основная схема](/first/main_scheme.png)
 
-![Табица сравнения селектора выходов] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/channel_select_table.png)
+![Табица сравнения селектора выходов](/first/channel_select_table.png)
 
-![Настройка ФНЧ] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/bass_settings.png)
+![Настройка ФНЧ](/first/bass_settings.png)
 
-![Настройка ФВЧ] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/treble_settings.png)
+![Настройка ФВЧ](/first/treble_settings.png)
 
-![Вкладка настройки CLOCK CONTROL] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/clock_control_settings.png)
+![Вкладка настройки CLOCK CONTROL](/first/clock_control_settings.png)
 
-![Вкладка настройки CORE CONTROL] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/core_control_settings.png)
+![Вкладка настройки CORE CONTROL](/first/core_control_settings.png)
 
-![Вкладка настройки SERIAL PORT] (https://github.com/alex-frolov/dsp-adau1452/blob/master/first/serial_port_settings.png)
+![Вкладка настройки SERIAL PORT](/first/serial_port_settings.png)
