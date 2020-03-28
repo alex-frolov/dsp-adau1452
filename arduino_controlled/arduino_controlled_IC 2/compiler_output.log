@@ -1,0 +1,56 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.5.0,1779  (built 10/28/2019)
+
+##### Compile Started: Monday, March 23, 2020 10:37:45 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.5.0,1779  (built 10/28/2019)
+
+##### Compile Started: Monday, March 23, 2020 10:37:45 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       00238    (of 20480)
+DM1 RAM used:       00150    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 00569    (of 8192) 475 instructions (32bit: 381  64bit: 94)
+Total PM used:      00569    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+SuperBass1                    138       194       56      67      0
+Bass Boost1                   76        92        108     14      0
+FRAMEWORK                     90        65        8       20      0
+ESC1                          22        22        7       7       0
+Nx2-1                         10        12        11      0       0
+Single 1                      8         11        3       1       0
+Single 2                      8         11        3       1       0
+1 X RTA1_2                    10        10        2       1       0
+1 X RTA1                      10        10        2       1       0
+DCB1                          8         8         3       2       0
+DCB1_2                        8         8         3       2       0
+Nx2-1_4                       8         8         1       2       0
+Nx2-1_3                       8         8         1       2       0
+Gen 1st Order1_3              7         7         3       5       0
+Gen 1st Order1                7         7         3       5       0
+Balance compencation          7         7         1       2       0
+Mute1                         6         6         1       2       0
+AsrcIn1                       5         5         0       4       0
+Inv1                          4         4         1       1       0
+Inv2                          4         4         1       1       0
+Input3                        4         4         0       2       0
+Input2                        4         4         0       2       0
+Input1                        4         4         0       2       0
+Output4                       2         2         0       0       0
+Output2                       2         2         0       0       0
+Output3                       2         2         0       0       0
+Output1                       2         2         0       0       0
+Output5                       2         2         0       0       0
+Output6                       2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         468       523       234     146     0
+--------------------------------------------------------------------------------------
+(% Fs=96.0kHz)                16%       7%        2%      1%      0%
+
